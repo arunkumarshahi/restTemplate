@@ -3,15 +3,12 @@ package com.sg.api.model;
 import java.util.ArrayList;
 import java.util.List;
 
+import lombok.Data;
+
+@Data
 public class UserData {
-	private List<User> data =new ArrayList<User>();
+	private List<User> userData =new ArrayList<User>();
 
-	public List<User> getData() {
-		return data;
-	}
-
-	public void setData(List<User> data) {
-		this.data = data;
-	}
+	
 
 }

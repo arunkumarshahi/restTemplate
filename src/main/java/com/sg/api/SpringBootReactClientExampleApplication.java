@@ -21,7 +21,7 @@ public class SpringBootReactClientExampleApplication implements CommandLineRunne
 	@Override
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
-		log.info("size :::"+apiService.getUsers(0).size());
+		//log.info("size :::"+apiService.getUsers(10).get(0).getName().getLast());
 	}
 
 }
